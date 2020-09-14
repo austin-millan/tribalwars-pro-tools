@@ -31,3 +31,7 @@ Final Project
 
 #Database Diagram
 ![Databse Diaram](http://i.imgur.com/9BHMwGh.png)
+
+# IMPORTANT
+
+I am not the author or maintainer of this project. I am simply hosting it so there's a copy somewhere accessible on the internet.
