@@ -1,0 +1,104 @@
+body
+{
+	background-image: url("https://media.innogamescdn.com/TribalWars/wallpapers/mobile/TribalWarsWallpaper_5_2048x1536.jpg");
+    background-repeat: no-repeat;
+}
+
+#buttons-div
+{
+	position: fixed;
+	top: 50px;
+	width: 50%;
+	z-index: 2000;
+}
+
+#header
+{
+	text-decoration: none; 
+	color: white; 
+	font-size: 30px; 
+	font-weight: 100; 
+	text-shadow: 2px 2px 2px #000; 
+	margin-left: 50px; 
+	font-family: Impact;
+}
+
+#btn_sub
+{
+	margin-right: 50px; 
+	text-decoration: none; 
+	font-family: Impact; 
+	color: white; 
+	border: 1px solid white; 
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.28) inset, 0px -1px 1px rgba(0, 0, 0, 0.28) inset;
+}
+
+#btn_sub:hover 
+{
+	color:#FFF;
+	text-decoration:none;
+	background-color:#52c8a9 !important;
+	border: 1px solid #03C7C2; 	
+}
+
+#div_btn_log
+{
+	position: fixed; 
+	right: 0; 
+	margin-right: 50px; 
+	margin-top: -20px;"
+}
+
+#btn_log
+{
+	text-decoration: none; 
+	font-family: Impact;
+	color: white; 
+	margin-right: 30px;
+}
+
+#btn_log:hover
+{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+h2 
+{
+	font-size: 60px;
+	font-weight: 100;
+	text-shadow: 2px 2px 2px #000;
+	text-align: center;
+	color: white;
+	font-family: Impact;
+	margin-top: 20%;
+}
+
+h3, h4
+{
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+	text-align: center;
+	color: white;
+	font-family: Impact;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	body
+	{
+		font-size: 250%
+	}
+	h2, h3, #header
+	{
+		display: none;
+	}
+	#btn_sub, #btn_log
+	{
+		display: block;
+		margin-top: 20%;
+		border: 0px;
+	}
+}
